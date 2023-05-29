@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qcnoxHjRT6n0WF52+B5LkcaqLFTPais1MvYGR2pPbsI=",
+  "Hash": "UQrvY0mdTmCSubYJfV2X+nGenCdUNHG+sjltseitxK0=",
   "Source": "learningAspNetCore",
   "BasePath": "_content/learningAspNetCore",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
+    },
+    {
+      "Identity": "/Users/rubenpatino/Desktop/myProjects/learningAspNetCore/learningAspNetCore/wwwroot/data/products.json",
+      "SourceId": "learningAspNetCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rubenpatino/Desktop/myProjects/learningAspNetCore/learningAspNetCore/wwwroot/",
+      "BasePath": "_content/learningAspNetCore",
+      "RelativePath": "data/products.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/data/products.json"
     },
     {
       "Identity": "/Users/rubenpatino/Desktop/myProjects/learningAspNetCore/learningAspNetCore/wwwroot/favicon.ico",

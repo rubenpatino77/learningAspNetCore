@@ -8,10 +8,14 @@
 
   <ItemGroup>
     <None Remove="Models\" />
-    <None Remove="data\" />
+    <None Remove="Services\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
-    <Folder Include="data\" />
+    <Folder Include="Services\" />
+    <Folder Include="wwwroot\data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\data\" />
   </ItemGroup>
 </Project>
