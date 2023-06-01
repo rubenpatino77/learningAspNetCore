@@ -1,4 +1,8 @@
-﻿using learningAspNetCore.Services;
+﻿using System.Net;
+using System.Text.Json;
+using learningAspNetCore.Models;
+using learningAspNetCore.Services;
+using Microsoft.AspNetCore.Http;
 
 internal class Program
 {
@@ -9,6 +13,7 @@ internal class Program
         // Add services to the container.
         builder.Services.AddRazorPages();
         builder.Services.AddTransient<JsonFileProductService>();
+        builder.Services.AddControllers();
 
         var app = builder.Build();
 
@@ -29,6 +34,10 @@ internal class Program
 
         app.MapRazorPages();
 
+        
+        app.MapControllers();
+
         app.Run();
     }
+    
 }
