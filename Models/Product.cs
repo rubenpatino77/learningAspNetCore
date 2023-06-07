@@ -19,7 +19,7 @@ namespace learningAspNetCore.Models
 
         public string Description { get; set; }
 
-        public string Ratings { get; set; }
+        public int[] Ratings { get; set; }
 
         public override string ToString()
         {

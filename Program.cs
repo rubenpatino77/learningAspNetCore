@@ -1,4 +1,4 @@
-﻿using System.Net;
+﻿ using System.Net;
 using System.Text.Json;
 using learningAspNetCore.Models;
 using learningAspNetCore.Services;
@@ -14,6 +14,7 @@ internal class Program
         builder.Services.AddRazorPages();
         builder.Services.AddTransient<JsonFileProductService>();
         builder.Services.AddControllers();
+        builder.Services.AddServerSideBlazor();
 
         var app = builder.Build();
 
@@ -34,6 +35,7 @@ internal class Program
 
         app.MapRazorPages();
 
+        app.MapBlazorHub();
         
         app.MapControllers();
 
